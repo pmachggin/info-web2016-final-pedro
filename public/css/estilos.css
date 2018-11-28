@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #00ff7f;
+    border-color: #09bef5;
+}
+.navbar .navbar-brand {
+    color: #f00;
+}
+.navbar .navbar-brand:focus, .navbar .navbar-brand:hover {
+    color: #0ff;
+}
+.navbar .navbar-collapse, .navbar .navbar-form {
+    border-color: #2d89a5;
+}
+.navbar .navbar-toggle {
+    border-color: #1886a7;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: #d4f5ff;
+}
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+    background-color: #2d89a5;
+}
+.navbar .navbar-nav>.active>a, .navbar .navbar-nav>.active>a:focus, .navbar .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #2d89a5;
+}
+.navbar .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:hover {
+    color: #00fff5;
+}
+.navbar .dropdown-item {
+	color: #f00;
+}
+.nabar .dropdown-item:focus, .navbar .dropdown-item:hover {
+	background-color: #c1c1c1;
+	color: #00f;
+}
+.jumbotron {
+	background-color: #c1c1c1;
+	border-color: #000;
+}
+.junbotron h1, h2 {
+	text-align: center;
+	color: #00f;
+}
