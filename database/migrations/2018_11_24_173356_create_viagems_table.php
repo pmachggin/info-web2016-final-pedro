@@ -31,6 +31,6 @@ class CreateViagemsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('Viagems');
+        Schema::dropIfExists('viagems');
     }
 }

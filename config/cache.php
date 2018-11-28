@@ -1,10 +1,9 @@
 <?php
 
-<<<<<<< HEAD
+
 use Illuminate\Support\Str;
 
-=======
->>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
+
 return [
 
     /*
@@ -91,13 +90,13 @@ return [
     |
     */
 
-<<<<<<< HEAD
+
     'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_cache'),
-=======
+
     'prefix' => env(
         'CACHE_PREFIX',
         str_slug(env('APP_NAME', 'laravel'), '_').'_cache'
     ),
->>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
+
 
 ];

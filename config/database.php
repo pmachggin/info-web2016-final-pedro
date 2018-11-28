@@ -37,10 +37,9 @@ return [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
-<<<<<<< HEAD
+
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
-=======
->>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
+
         ],
 
         'mysql' => [
@@ -54,10 +53,9 @@ return [
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
-<<<<<<< HEAD
+
             'prefix_indexes' => true,
-=======
->>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
+
             'strict' => true,
             'engine' => null,
         ],
@@ -71,10 +69,9 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
-<<<<<<< HEAD
+
             'prefix_indexes' => true,
-=======
->>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
+
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
@@ -88,10 +85,8 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
-<<<<<<< HEAD
             'prefix_indexes' => true,
-=======
->>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
+
         ],
 
     ],
