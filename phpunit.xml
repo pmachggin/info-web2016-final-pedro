@@ -26,8 +26,14 @@
         <env name="APP_ENV" value="testing"/>
         <env name="BCRYPT_ROUNDS" value="4"/>
         <env name="CACHE_DRIVER" value="array"/>
+<<<<<<< HEAD
         <env name="MAIL_DRIVER" value="array"/>
         <env name="QUEUE_CONNECTION" value="sync"/>
         <env name="SESSION_DRIVER" value="array"/>
+=======
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+        <env name="MAIL_DRIVER" value="array"/>
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
     </php>
 </phpunit>

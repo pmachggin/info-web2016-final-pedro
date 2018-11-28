@@ -5,7 +5,10 @@
 /vendor
 /.idea
 /.vscode
+<<<<<<< HEAD
 /nbproject
+=======
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
 /.vagrant
 Homestead.json
 Homestead.yaml

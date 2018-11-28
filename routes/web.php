@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('welcome');
 });
 
@@ -43,3 +44,29 @@ Route::put('/viagems/{horario}', 'ViagemsController@store')->middleware('auth')-
 
 
 
+=======
+    // $pagina = "<h1>Olá Mundo Laravel!</h1>";
+    // $pagina .= "<h2>Sei Lá!</h2>";
+    // return $pagina;
+
+    return view('template');
+});
+
+// Route::get('/artigos', function (){
+//     // return '<h1>Artigos do Blog</h1>';
+
+//     return view('artigos');
+// });
+
+// Route::get('/artigos/laravel', function (){
+//     // $pagina = '<h1>Artigos do Blog</h1>';
+//     // $pagina .= '<h2>Categoria: Laravel</h2>';
+//     // return $pagina;
+
+//     return view('artigos_laravel');
+// });
+
+
+Route::get('/artigos', 'ArtigosController@index');
+Route::get('/artigos/laravel', 'ArtigosController@laravel');
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852

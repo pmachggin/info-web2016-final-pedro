@@ -8,8 +8,12 @@
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
+<<<<<<< HEAD
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.7.1"
+=======
+        "laravel/tinker": "^1.0"
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -44,11 +48,19 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
+<<<<<<< HEAD
             "@php artisan key:generate --ansi"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
+=======
+            "@php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
         ]
     },
     "config": {

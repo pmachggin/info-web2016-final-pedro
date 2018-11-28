@@ -36,7 +36,11 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
+<<<<<<< HEAD
             'channels' => ['daily'],
+=======
+            'channels' => ['single'],
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
         ],
 
         'single' => [
@@ -49,7 +53,11 @@ return [
             'driver' => 'daily',
             'path' => storage_path('logs/laravel.log'),
             'level' => 'debug',
+<<<<<<< HEAD
             'days' => 14,
+=======
+            'days' => 7,
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
         ],
 
         'slack' => [

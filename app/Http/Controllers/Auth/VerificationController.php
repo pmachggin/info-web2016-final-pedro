@@ -14,7 +14,11 @@ class VerificationController extends Controller
     |
     | This controller is responsible for handling email verification for any
     | user that recently registered with the application. Emails may also
+<<<<<<< HEAD
     | be re-sent if the user didn't receive the original email message.
+=======
+    | be resent if the user did not receive the original email message.
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
     |
     */
 
@@ -25,7 +29,11 @@ class VerificationController extends Controller
      *
      * @var string
      */
+<<<<<<< HEAD
     protected $redirectTo = '/';
+=======
+    protected $redirectTo = '/home';
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
 
     /**
      * Create a new controller instance.

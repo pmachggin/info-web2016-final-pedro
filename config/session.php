@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 
+=======
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
 return [
 
     /*
@@ -126,7 +129,11 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
+<<<<<<< HEAD
         Str::slug(env('APP_NAME', 'laravel'), '_').'_session'
+=======
+        str_slug(env('APP_NAME', 'laravel'), '_').'_session'
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
     ),
 
     /*

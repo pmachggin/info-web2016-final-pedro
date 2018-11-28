@@ -5,7 +5,10 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 90975466cfaddc518eea321c50c73d0867c98852
 class AppServiceProvider extends ServiceProvider
 {
     /**
